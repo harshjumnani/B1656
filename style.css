@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;    
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: grey;
+    display: flex;
+}
+#main #top{
+    height: 7%;
+    width: 100%;
+    background-color: white;
+    position: absolute;
+    z-index: 1;
+    border: black;
+    font-family: 'Gilroy-bolt';
+}
+
+#main #left{
+    height: 100%;
+    width: 30%;
+    background-color: #101B1A;
+    position: relative;
+    background-image: url(https://images.unsplash.com/photo-1631359994852-37e5b9009ef3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=415&q=80);
+}
+#main #left #bolt{
+    position: absolute;
+    z-index: 999;
+    left: 50%;
+    top: 20%;
+    color: white;
+  
+    
+}
+#main #left #bolt h1{
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 70px;
+}
+
+#main #center{
+    height: 100%;
+    bottom: 0%;
+    width: 40%;
+    background-image: url(https://images.unsplash.com/photo-1557531121-4b4764f8dace?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80);
+    background-size: cover;
+    position: relative;
+   
+    
+}
+#main #right #star{
+    position: absolute;
+    top: 30%;
+    left: -5%;
+    font-size: 100px;
+    color: white;
+    
+}
+
+#main #right{
+    height: 100%;
+    width: 30%;
+    background-image: url(https://images.unsplash.com/photo-1525981081253-9859eb266137?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+#main #top ul{
+    display: inline;
+    letter-spacing: 20px;
+    position: absolute;
+    left: 19%;
+    top: 23%;
+}
+
+#main #top ul li{
+    display: inline;
+    letter-spacing: 5px;
+}
+
+#main #top ul #underline{
+   letter-spacing: 5px;
+}
+#main #top P{
+    display: inline;
+    letter-spacing: 3px;
+    position: absolute;
+    right: 3%;
+    top: 23%;
+}
+#main #right #bottom{
+    position: absolute;
+    height: 7%;
+    width: 100%;
+    bottom: 0%;
+    z-index: 1;
+     background-color: #D2D5DA;
+}
+#main #right #bottom h1{
+    color: #016E3E;
+    font-family: -  -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: absolute;
+    letter-spacing: 3px;
+    bottom: 10%;
+    left: 30%;
+}
+#main #right #bottom .fa-map-marker-alt{
+    color: #016e3e;
+    position: absolute;
+    bottom: 10%;
+    left: 20%;
+}
+#main #right #bottom:hover{
+    background-color: black;
+}
+#main #parallel{
+    position: absolute;
+    border-top: white 0.5px solid;
+    border-bottom: white 0.5px solid;
+    height: 17%;
+    width: 100%;
+    z-index: 99;
+    top: 60%;
+}
+#main #parallel:hover{
+    background-color: rgba(0, 0, 0, 0.034);
+}
+
+#main #left BUTTON{
+    position: absolute;
+    color: black;
+    background-color: white;
+    border: white;
+    height: 39px;
+    width: auto;
+    border: 0;
+    top: 66%;
+    letter-spacing: 5px;
+    left: 20%;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+#main #top h1{
+    position: absolute;
+    top: 8%;
+   left: 4%;
+   color: hsl(154, 98%, 22%);
+   font-family: -'Hursheys';
+}
+#main #top img{
+   position: absolute;
+   top: 9%;
+   left: 1%;
+}
+#main #center #circle{
+    position: absolute;
+    z-index: 6;
+    border: white 0.2px solid;
+    top: 20%;
+    right: 10%;
+    height: 110px;
+   width: 110px;
+   border-radius: 50%;
+  font-size: 10px;
+}
+#main #center #circle h3{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#main #center #circle:hover{
+   background-color: rgba(0, 0, 0, 0.123);
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-size: 20px;
+   border: #02713F 0.2px solid;
+   color: #02713F;
+}
+#main #left #bolt h1:hover{
+    -webkit-text-stroke: white 1px;
+   color: transparent;
+}
+    
